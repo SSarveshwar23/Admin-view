@@ -28,6 +28,7 @@
 	--#{$prefix}app-header-input-bg:          #{$app-header-input-bg};
 	--#{$prefix}app-header-input-border:      #{$app-header-input-border};
 	--#{$prefix}app-header-divider-bg:        #{$app-header-divider-bg};
+	--#{$prefix}app-header-logo:              #{$app-header-logo};
 	
 	--#{$prefix}app-sidebar-bg:                      #{$app-sidebar-bg};
 	--#{$prefix}app-sidebar-bg-rgb:                  #{to-rgb($app-sidebar-bg)};
@@ -149,6 +150,7 @@
 		--#{$prefix}app-header-input-bg:          #{$app-header-input-bg-dark};
 		--#{$prefix}app-header-input-border:      #{$app-header-input-border-dark};
 		--#{$prefix}app-header-divider-bg:        #{$app-header-divider-bg-dark};
+		--#{$prefix}app-header-logo:              #{$app-header-logo-dark};
 		
 		--#{$prefix}app-sidebar-bg:                      #{$app-sidebar-bg-dark};
 		--#{$prefix}app-sidebar-bg-rgb:                  #{to-rgb($app-sidebar-bg-dark)};

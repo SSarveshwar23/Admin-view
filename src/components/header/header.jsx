@@ -8,10 +8,11 @@ import DropdownMegaMenu from './dropdown/mega.jsx';
 
 import { AppSettings } from './../../config/app-settings.js';
 
-function Header() {
+function Header(appHeaderInverse) {
+	console.log(appHeaderInverse)
 	return (
 		<AppSettings.Consumer>
-			{({toggleAppSidebarMobile, toggleAppSidebarEnd, toggleAppSidebarEndMobile, toggleAppTopMenuMobile, appHeaderLanguageBar, appHeaderMegaMenu, appHeaderInverse, appSidebarTwo, appTopMenu, appSidebarNone}) => (
+			{({ toggleAppSidebarMobile, toggleAppSidebarEnd, toggleAppSidebarEndMobile, toggleAppTopMenuMobile, appHeaderLanguageBar, appHeaderMegaMenu, appHeaderInverse, appSidebarTwo, appTopMenu, appSidebarNone }) => (
 				<div id="header" className="app-header" data-bs-theme={appHeaderInverse ? 'dark' : ''}>
 					<div className="navbar-header">
 						{appSidebarTwo && (
@@ -21,8 +22,8 @@ function Header() {
 								<span className="icon-bar"></span>
 							</button>
 						)}
-						<Link to="/" className="navbar-brand"><span className="navbar-logo"></span> <b>Color</b> Admin</Link>
-						
+						<Link to="/home" className="navbar-brand"><span className="navbar-logo mt-1"></span></Link>
+
 						{appHeaderMegaMenu && (
 							<button type="button" className="navbar-mobile-toggler" data-bs-toggle="collapse" data-bs-target="#top-navbar">
 								<span className="fa-stack fa-lg text-inverse">
@@ -32,12 +33,12 @@ function Header() {
 							</button>
 						)}
 						{appTopMenu && !appSidebarNone && (
-						<button type="button" className="navbar-mobile-toggler" onClick={toggleAppTopMenuMobile}>
-							<span className="fa-stack fa-lg text-inverse">
-								<i className="far fa-square fa-stack-2x"></i>
-								<i className="fa fa-cog fa-stack-1x"></i>
-							</span>
-						</button>
+							<button type="button" className="navbar-mobile-toggler" onClick={toggleAppTopMenuMobile}>
+								<span className="fa-stack fa-lg text-inverse">
+									<i className="far fa-square fa-stack-2x"></i>
+									<i className="fa fa-cog fa-stack-1x"></i>
+								</span>
+							</button>
 						)}
 						{appSidebarNone && appTopMenu && (
 							<button type="button" className="navbar-mobile-toggler" onClick={toggleAppTopMenuMobile}>
@@ -54,25 +55,25 @@ function Header() {
 							</button>
 						)}
 					</div>
-					
+
 					{appHeaderMegaMenu && (
 						<DropdownMegaMenu />
 					)}
-					
+
 					<div className="navbar-nav">
 						<SearchForm />
 						<DropdownNotification />
-						
+
 						{appHeaderLanguageBar && (
 							<DropdownLanguage />
 						)}
-						
+
 						<DropdownProfile />
-						
+
 						{appSidebarTwo && (
 							<div className="navbar-divider d-none d-md-block"></div>
 						)}
-						
+
 						{appSidebarTwo && (
 							<div className="navbar-item d-none d-md-block">
 								<Link to="/" onClick={toggleAppSidebarEnd} className="navbar-link icon">

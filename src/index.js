@@ -11,6 +11,7 @@ import '@fortawesome/fontawesome-free/css/all.css';
 import 'react-perfect-scrollbar/dist/css/styles.css';
 import './index.css';
 import './scss/react.scss';
+import 'bootstrap-social/bootstrap-social.css';
 
 
 const container = document.getElementById('root');
