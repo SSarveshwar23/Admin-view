@@ -1,0 +1,68 @@
+/* The sidenav */
+.sidenav {
+    height: 100%; /* Full-height */
+    width: 0; /* Initially closed (0 width) */
+    position: fixed; /* Fixed position */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* Transition effect */
+    padding-top: 60px; /* Place content below the toggle button */
+  }
+  
+  /* Links inside the sidenav */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Close button at the top */
+  .sidenav .close-btn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Open button */
+  .open-btn {
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    margin-top: 20px;
+  }
+  
+  /* Styling for the main content when sidenav is opened */
+  .main-content {
+    transition: margin-left 0.5s;
+    padding: 16px;
+  }
+  
+  /* Open the sidenav */
+  .sidenav-open {
+    width: 250px; /* Width when open */
+  }
+  
+  /* Shift content when sidenav is open */
+  .shift-content {
+    margin-left: 250px;
+  }
+  

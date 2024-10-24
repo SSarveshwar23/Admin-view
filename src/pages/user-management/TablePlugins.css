@@ -1,0 +1,50 @@
+.approve-btn {
+    background-color: #000000;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .approve-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .approved-btn {
+    background-color: #28a745;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.3s ease;
+  }
+  
+  .approved-btn:hover {
+    background-color: #218838;
+  }
+  /* Custom styles for the React Modal */
+  .ReactModal__Overlay {
+    background-color: rgba(0, 0, 0, 0.75); /* Dark background */
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+  }
+  
+  .ReactModal__Content {
+    margin: auto; /* Center the modal */
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    background: #fff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  
+  .ReactModal__Content h2 {
+    margin-bottom: 10px;
+  }
+  
+  .ReactModal__Content p {
+    margin-bottom: 20px;
+  }
+  
+  .ReactModal__Content button {
+    margin-right: 10px; /* Space between buttons */
+  }
+  /* Custom styles for the React Modal */

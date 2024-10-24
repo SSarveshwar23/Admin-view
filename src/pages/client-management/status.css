@@ -1,0 +1,86 @@
+.status-badge {
+  display: inline-block;
+}
+
+/* Add status specific styles */
+.status-badge {
+  color: #fff; /* Default text color */
+}
+
+.status-badge.in-progress {
+  background-color: orange; /* For In Progress */
+}
+
+.status-badge.complete {
+  background-color: blue; /* For Complete */
+}
+
+.status-badge.pending {
+  background-color: red; /* For Pending */
+}
+
+/* Animation effects */
+.status-badge:hover {
+  transform: scale(1.05); /* Scale up on hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.modal-backdrop {
+  background-color: rgba(57, 56, 56, 0.5); /* Semi-transparent black */
+}
+
+.modal {
+  display: flex;
+  align-items: center; /* Vertically center */
+  justify-content: center; /* Horizontally center */
+  min-height: 100vh; /* Full viewport height */
+}
+
+.modal-dialog {
+  max-width: 500px; /* Adjust modal width as needed */
+  width: 100%; /* Make modal responsive */
+}
+
+.client-detail {
+  padding: 15px; /* Add padding for better spacing */
+  font-size: 16px; /* Adjust font size */
+}
+
+.modal-header {
+  border-bottom: 2px solid #007bff; /* Accent border color */
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end; /* Align button to the right */
+}
+
+/* Glowing and cool "Done" text */
+.done-text {
+  font-size: 2.5rem;
+  color: #28a745;
+  animation: glow 1s ease-in-out infinite alternate;
+  text-shadow: 0 0 10px rgba(0, 255, 0, 0.75), 0 0 20px rgba(0, 255, 0, 0.5), 0 0 30px rgba(0, 255, 0, 0.3);
+}
+
+/* Animation for the glow effect */
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px rgba(0, 255, 0, 0.75), 0 0 20px rgba(0, 255, 0, 0.5), 0 0 30px rgba(0, 255, 0, 0.3);
+  }
+  to {
+    text-shadow: 0 0 20px rgba(0, 255, 0, 1), 0 0 30px rgba(0, 255, 0, 0.75), 0 0 40px rgba(0, 255, 0, 0.5);
+  }
+}
+
+/* Button styles */
+.done-section .btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+  transition: all 0.3s ease;
+}
+
+.done-section .btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
