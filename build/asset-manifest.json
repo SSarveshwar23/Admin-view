@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Admin-view/static/css/main.d50814f1.css",
+    "main.js": "/Admin-view/static/js/main.945a6847.js",
+    "static/js/9.e9373cfb.chunk.js": "/Admin-view/static/js/9.e9373cfb.chunk.js",
+    "static/media/logo dark.png": "/Admin-view/static/media/logo dark.decfbc20fa239eb819dc.png",
+    "static/media/coming-soon.jpg": "/Admin-view/static/media/coming-soon.118db6141a6143fc6377.jpg",
+    "static/media/bg-login.png": "/Admin-view/static/media/bg-login.a5ad9be47bf9a0253018.png",
+    "static/media/bg-login-dark-mode.png": "/Admin-view/static/media/bg-login-dark-mode.b4a5c65890722647a955.png",
+    "static/media/fa-solid-900.ttf": "/Admin-view/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/Admin-view/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/Admin-view/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/Admin-view/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/cover-sidebar.jpg": "/Admin-view/static/media/cover-sidebar.e9afd3fa3d72ffea9e24.jpg",
+    "static/media/logo-light.png": "/Admin-view/static/media/logo-light.a7d239317b1b71913d66.png",
+    "static/media/fa-regular-400.ttf": "/Admin-view/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/cover-sidebar-user.jpg": "/Admin-view/static/media/cover-sidebar-user.2d528aa94740a9717261.jpg",
+    "static/media/error-page-pattern.png": "/Admin-view/static/media/error-page-pattern.2d15e616ccf00e761a77.png",
+    "static/media/fa-regular-400.woff2": "/Admin-view/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/fa-v4compatibility.ttf": "/Admin-view/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Admin-view/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/Admin-view/index.html",
+    "main.d50814f1.css.map": "/Admin-view/static/css/main.d50814f1.css.map",
+    "main.945a6847.js.map": "/Admin-view/static/js/main.945a6847.js.map",
+    "9.e9373cfb.chunk.js.map": "/Admin-view/static/js/9.e9373cfb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d50814f1.css",
+    "static/js/main.945a6847.js"
+  ]
+}
